@@ -3,13 +3,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="ISO-8859-1"> 
 <title>Insert title here</title>
 </head>
 <body>
 	<center>
 		<form action="Controller?op=doLogin" method="POST">
 		 <%String user="";
+		 //Prueba de github
 		 Cookie[] todas=request.getCookies();
 		 if(todas!=null){
 			 for(Cookie c:todas){
